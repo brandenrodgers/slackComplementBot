@@ -19,8 +19,8 @@ module.exports = function (req, res, next) {
   // only send a complement to this person
   if (respond && userName == SLACK_NAME) {
     var randomIndex = Math.floor(Math.random() * complements.length); // pick a random index
-    var complement = replaceName(userName, complements[randomIndex]);
-    var botPayload = {text : complement};
+    //var complement = replaceName(userName, complements[randomIndex]);
+    var botPayload = {text : complements[randomIndex]};
  
     // send response
     return res.status(200).json(botPayload);
@@ -29,7 +29,7 @@ module.exports = function (req, res, next) {
     // send nothing
     return res.status(200).end();
   }
-}
+};
 
 // Replaces the '@' symbol in the sentence with the given name
 // Note: the sentence can only have one '@' symbol

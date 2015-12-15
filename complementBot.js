@@ -2,10 +2,10 @@
 // TODO: add more coplements, remove hard-coded name, make chance of response much lower
 
 var complements = [
-  "Rishi, you are smart, and everyone secretly thinks you are super cool.",
-  "I wish everyone could be more like you, Rishi.",
+  "Branden, you are smart, and everyone secretly thinks you are super cool.",
+  "I wish everyone could be more like you, Branden.",
   "You have an unbelievably deserving life.",
-  "Your co-workers don't deserve someone as perfect as you, Rishi",
+  "Your co-workers don't deserve someone as perfect as you, Branden",
   ];
 
 

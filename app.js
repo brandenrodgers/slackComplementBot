@@ -20,5 +20,5 @@ app.listen(port, function () {
   console.log('Slack bot listening on port ' + port);
 });
 
-app.post('/hello', complementBot);
+app.post('/complementbottest', complementBot);
 

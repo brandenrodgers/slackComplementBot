@@ -19,7 +19,7 @@ module.exports = function (req, res, next) {
   // only send a complement to this person
   if (respond && userName === SLACK_NAME) {
     var randomIndex = Math.floor(Math.random() * complements.length); // pick a random index
-    var complement = this.replaceName(userName, complements[randomIndex]);
+    var complement = replaceName(userName, complements[randomIndex]);
     var botPayload = {text : complement};
  
     // send response

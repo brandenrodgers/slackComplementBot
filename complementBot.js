@@ -9,7 +9,7 @@ var complements = [
   "I wish everyone could be more like you, @.",
   "Your co-workers don't deserve someone as perfect as you, @.",
   "You're so delightful, @. I bet you make babies smile.",
-  "@, you are a strong, independant man. Don't let anyone here tell you otherwise",
+  "@, you are a strong, independant man. Don't let anyone here tell you otherwise.",
   "On a scale from 1 to 10, @ is an 11.",
   "@, You're even more beautiful on the inside than you are on the outside.",
   "You are making a difference, @.",
@@ -18,12 +18,19 @@ var complements = [
   "I bet @ could survive a Zombie apocalypse.",
   "Isn't @ like a breath of fresh air?",
   "I bet @ does crossword puzzles in ink.",
-  "How does @ keep being so funny and making everyone laugh?",
+  "How does @ keep being so funny and making everyone laugh all the time?",
   "Forget this guys, lets just talk about how great @ is instead.",
   "Does anyone have a Band Aid? I scraped my knee falling for @.",
   "I appreciate @ more than Santa appreciates chimney grease.",
   "Is it hot in here? Or is it just @?",
-  "Have you been going to the gym @? You look good today."
+  "Have you been going to the gym @? You look good today.",
+  "@, Your smile is contagious, you have the best laugh, and we appreciate you.",
+  "I think we can all agree that @ is by far the most influential person in our lives.",
+  "This company would be nothing without you, @",
+  "I literally would not exist if it weren't for you, @",
+  "I'm sure all of that is very important, but what really matters is how good @ looks today",
+  "Every second we're not talking about @'s killer legs is a wasted second.",
+  "It's been far too long since we've talked about how easy it is to get lost in @'s eyes",
   ];
 
 

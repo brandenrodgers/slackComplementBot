@@ -12,12 +12,13 @@ var complements = [
 module.exports = function (req, res, next) {
   var userName = req.body.user_name;
   var randomIndex = Math.floor(Math.random() * complements.length);
+  var respond = (Math.random() * 100) > 50;
   var botPayload = {
     text : complements[randomIndex]
   };
 
   // avoid infinite loop
-  if (userName === 'branden') {
+  if (respond && userName === 'branden') {
     return res.status(200).json(botPayload);
   } else {
     return res.status(200).end();

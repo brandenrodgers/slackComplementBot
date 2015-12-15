@@ -1,0 +1,13 @@
+{
+  "name": "Slackbot",
+  "version": "1.0.0",
+  "description": "A complementing slackbot",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Branden Rodgers",
+  "dependencies": {
+    "express": "^4.x.x",
+    "body-parser": "^1.x.x"
+  }
+}

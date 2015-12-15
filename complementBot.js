@@ -2,7 +2,7 @@
 // TODO: add more coplements, remove hard-coded name, make chance of response much lower
 
 var SLACK_NAME = branden; // the user that the bot will respond to
-var RESPONSE_CHANCE = 50; // % chance of a response from the bot
+var RESPONSE_CHANCE = 100; // % chance of a response from the bot
 
 var complements = [
   "@, you are smart, and everyone secretly thinks you are super cool.",
@@ -20,9 +20,7 @@ module.exports = function (req, res, next) {
   if (respond && userName === SLACK_NAME) {
     var randomIndex = Math.floor(Math.random() * complements.length); // pick a random index
     var complement = this.replaceName(userName, complements[randomIndex]);
-    var botPayload = {
-      text : complement
-    };
+    var botPayload = {text : complement};
  
     // send response
     return res.status(200).json(botPayload);

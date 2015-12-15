@@ -1,4 +1,5 @@
 
+// TODO: add more coplements, remove hard-coded name, make chance of response much lower
 
 var complements = [
   "Rishi, you are smart, and everyone secretly thinks you are super cool.",
@@ -10,13 +11,13 @@ var complements = [
 
 module.exports = function (req, res, next) {
   var userName = req.body.user_name;
-  var index = Math.floor(Math.random() * 4);
+  var randomIndex = Math.floor(Math.random() * complements.length);
   var botPayload = {
-    text : complements[index]
+    text : complements[randomIndex]
   };
 
   // avoid infinite loop
-  if (userName !== 'slackbot') {
+  if (userName === 'branden') {
     return res.status(200).json(botPayload);
   } else {
     return res.status(200).end();

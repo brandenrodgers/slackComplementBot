@@ -1,7 +1,7 @@
 
 
 var SLACK_NAME = "branden"; // the user that the bot will respond to
-var RESPONSE_CHANCE = 100; // % chance of a response from the bot
+var RESPONSE_CHANCE = 80; // % chance of a response from the bot
 
 // Add '@' symbols wherever you want to use the person's name (only 1 per sentence)
 var complements = [
@@ -31,6 +31,15 @@ var complements = [
   "I'm sure all of that is very important, but what really matters is how good @ looks today",
   "Every second we're not talking about @'s killer legs is a wasted second.",
   "It's been far too long since we've talked about how easy it is to get lost in @'s eyes",
+  "@ is so smart. He should run for president.",
+  "Don't you just want to pinch @'s cute little cheeks",
+  "I wish @ was ten stories tall so he could hug each and every one of us at the same time",
+  "@, you matter.",
+  "Let's all just stop working so we can spend more time thinking about @",
+  "It's hard to get work done here when @'s eyes are so deep and distracting. Am I right guys?",
+  "We're so blessed to have @ in this chat.",
+  "@ why don't you notice me? I'm trying so hard to get your attention.",
+  "@ you're amazing. Let's run away.",
   ];
 
 

@@ -1,6 +1,7 @@
 
 
-var SLACK_NAME = "rishishiva"; // the user that the bot will respond to
+var SLACK_NAME = "rishishiva"; // the username that the bot will respond to
+var NAME = "rishi"; // Display name
 var RESPONSE_CHANCE = 80; // % chance of a response from the bot
 
 // Add '@' symbols wherever you want to use the person's name (only 1 per sentence)
@@ -50,7 +51,7 @@ module.exports = function (req, res, next) {
   // only send a complement to this person
   if (respond && userName === SLACK_NAME) {
     var randomIndex = Math.floor(Math.random() * complements.length); // pick a random index
-    var complement = replaceName(userName, complements[randomIndex]);
+    var complement = replaceName(NAME, complements[randomIndex]);
     var botPayload = {text : complement};
  
     // send response

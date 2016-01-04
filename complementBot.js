@@ -2,7 +2,7 @@
 
 var SLACK_NAME = "rishishiva"; // the username that the bot will respond to
 var NAME = "rishi"; // Display name
-var RESPONSE_CHANCE = 80; // % chance of a response from the bot
+var RESPONSE_CHANCE = 40; // % chance of a response from the bot
 
 // Add '@' symbols wherever you want to use the person's name (only 1 per sentence)
 var complements = [
